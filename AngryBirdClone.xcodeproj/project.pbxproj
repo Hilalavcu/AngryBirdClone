@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DBC968682D0DD4D90092D9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC968462D0DD4D70092D9F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC9684D2D0DD4D70092D9F7;
+			remoteInfo = AngryBirdClone;
+		};
+		DBC968722D0DD4D90092D9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC968462D0DD4D70092D9F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC9684D2D0DD4D70092D9F7;
+			remoteInfo = AngryBirdClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBC9684E2D0DD4D70092D9F7 /* AngryBirdClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngryBirdClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC968672D0DD4D90092D9F7 /* AngryBirdCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngryBirdCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC968712D0DD4D90092D9F7 /* AngryBirdCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngryBirdCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DBC968502D0DD4D70092D9F7 /* AngryBirdClone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AngryBirdClone;
+			sourceTree = "<group>";
+		};
+		DBC9686A2D0DD4D90092D9F7 /* AngryBirdCloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AngryBirdCloneTests;
+			sourceTree = "<group>";
+		};
+		DBC968742D0DD4D90092D9F7 /* AngryBirdCloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AngryBirdCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC9684B2D0DD4D70092D9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC968642D0DD4D90092D9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC9686E2D0DD4D90092D9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC968452D0DD4D70092D9F7 = {
+			isa = PBXGroup;
+			children = (
+				DBC968502D0DD4D70092D9F7 /* AngryBirdClone */,
+				DBC9686A2D0DD4D90092D9F7 /* AngryBirdCloneTests */,
+				DBC968742D0DD4D90092D9F7 /* AngryBirdCloneUITests */,
+				DBC9684F2D0DD4D70092D9F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC9684F2D0DD4D70092D9F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC9684E2D0DD4D70092D9F7 /* AngryBirdClone.app */,
+				DBC968672D0DD4D90092D9F7 /* AngryBirdCloneTests.xctest */,
+				DBC968712D0DD4D90092D9F7 /* AngryBirdCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC9684D2D0DD4D70092D9F7 /* AngryBirdClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC9687B2D0DD4D90092D9F7 /* Build configuration list for PBXNativeTarget "AngryBirdClone" */;
+			buildPhases = (
+				DBC9684A2D0DD4D70092D9F7 /* Sources */,
+				DBC9684B2D0DD4D70092D9F7 /* Frameworks */,
+				DBC9684C2D0DD4D70092D9F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DBC968502D0DD4D70092D9F7 /* AngryBirdClone */,
+			);
+			name = AngryBirdClone;
+			packageProductDependencies = (
+			);
+			productName = AngryBirdClone;
+			productReference = DBC9684E2D0DD4D70092D9F7 /* AngryBirdClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC968662D0DD4D90092D9F7 /* AngryBirdCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC9687E2D0DD4D90092D9F7 /* Build configuration list for PBXNativeTarget "AngryBirdCloneTests" */;
+			buildPhases = (
+				DBC968632D0DD4D90092D9F7 /* Sources */,
+				DBC968642D0DD4D90092D9F7 /* Frameworks */,
+				DBC968652D0DD4D90092D9F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC968692D0DD4D90092D9F7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DBC9686A2D0DD4D90092D9F7 /* AngryBirdCloneTests */,
+			);
+			name = AngryBirdCloneTests;
+			packageProductDependencies = (
+			);
+			productName = AngryBirdCloneTests;
+			productReference = DBC968672D0DD4D90092D9F7 /* AngryBirdCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC968702D0DD4D90092D9F7 /* AngryBirdCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC968812D0DD4D90092D9F7 /* Build configuration list for PBXNativeTarget "AngryBirdCloneUITests" */;
+			buildPhases = (
+				DBC9686D2D0DD4D90092D9F7 /* Sources */,
+				DBC9686E2D0DD4D90092D9F7 /* Frameworks */,
+				DBC9686F2D0DD4D90092D9F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC968732D0DD4D90092D9F7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DBC968742D0DD4D90092D9F7 /* AngryBirdCloneUITests */,
+			);
+			name = AngryBirdCloneUITests;
+			packageProductDependencies = (
+			);
+			productName = AngryBirdCloneUITests;
+			productReference = DBC968712D0DD4D90092D9F7 /* AngryBirdCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC968462D0DD4D70092D9F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DBC9684D2D0DD4D70092D9F7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DBC968662D0DD4D90092D9F7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DBC9684D2D0DD4D70092D9F7;
+					};
+					DBC968702D0DD4D90092D9F7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DBC9684D2D0DD4D70092D9F7;
+					};
+				};
+			};
+			buildConfigurationList = DBC968492D0DD4D70092D9F7 /* Build configuration list for PBXProject "AngryBirdClone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC968452D0DD4D70092D9F7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DBC9684F2D0DD4D70092D9F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC9684D2D0DD4D70092D9F7 /* AngryBirdClone */,
+				DBC968662D0DD4D90092D9F7 /* AngryBirdCloneTests */,
+				DBC968702D0DD4D90092D9F7 /* AngryBirdCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC9684C2D0DD4D70092D9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC968652D0DD4D90092D9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC9686F2D0DD4D90092D9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC9684A2D0DD4D70092D9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC968632D0DD4D90092D9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC9686D2D0DD4D90092D9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC968692D0DD4D90092D9F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC9684D2D0DD4D70092D9F7 /* AngryBirdClone */;
+			targetProxy = DBC968682D0DD4D90092D9F7 /* PBXContainerItemProxy */;
+		};
+		DBC968732D0DD4D90092D9F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC9684D2D0DD4D70092D9F7 /* AngryBirdClone */;
+			targetProxy = DBC968722D0DD4D90092D9F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBC968792D0DD4D90092D9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBC9687A2D0DD4D90092D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC9687C2D0DD4D90092D9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hilalavcu.AngryBirdClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBC9687D2D0DD4D90092D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hilalavcu.AngryBirdClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBC9687F2D0DD4D90092D9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hilalavcu.AngryBirdCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngryBirdClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AngryBirdClone";
+			};
+			name = Debug;
+		};
+		DBC968802D0DD4D90092D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hilalavcu.AngryBirdCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngryBirdClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AngryBirdClone";
+			};
+			name = Release;
+		};
+		DBC968822D0DD4D90092D9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hilalavcu.AngryBirdCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AngryBirdClone;
+			};
+			name = Debug;
+		};
+		DBC968832D0DD4D90092D9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hilalavcu.AngryBirdCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AngryBirdClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC968492D0DD4D70092D9F7 /* Build configuration list for PBXProject "AngryBirdClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC968792D0DD4D90092D9F7 /* Debug */,
+				DBC9687A2D0DD4D90092D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC9687B2D0DD4D90092D9F7 /* Build configuration list for PBXNativeTarget "AngryBirdClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC9687C2D0DD4D90092D9F7 /* Debug */,
+				DBC9687D2D0DD4D90092D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC9687E2D0DD4D90092D9F7 /* Build configuration list for PBXNativeTarget "AngryBirdCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC9687F2D0DD4D90092D9F7 /* Debug */,
+				DBC968802D0DD4D90092D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC968812D0DD4D90092D9F7 /* Build configuration list for PBXNativeTarget "AngryBirdCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC968822D0DD4D90092D9F7 /* Debug */,
+				DBC968832D0DD4D90092D9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC968462D0DD4D70092D9F7 /* Project object */;
+}
